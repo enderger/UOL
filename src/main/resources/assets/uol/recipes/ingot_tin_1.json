@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "B"
+  ],
+
+  "key": {
+    "B": {
+      "item": "uol:block_tin"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:ingot_tin",
+    "count": 9
+  }
+}
