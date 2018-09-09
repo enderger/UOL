@@ -17,6 +17,7 @@ public class BlockInit {
     public static final Block COPPER_BLOCK = new BlockBaseRegister("block_copper",Material.IRON, 5.0f);
     public static final Block TIN_BLOCK = new BlockBaseRegister("block_tin",Material.IRON, 5.0f);
     public static final Block ALUMINUM_BLOCK = new BlockBaseRegister("block_aluminum",Material.IRON, 5.0f);
+    public static final Block SILVER_BLOCK = new BlockBaseRegister("bock_silver", Material.IRON, 5.0f);
 
     public static final Block MITHRIL_BLOCK = new BlockMithril("block_mithril",Material.IRON, EnumRarity.RARE, 5.0f);
 }
