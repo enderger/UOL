@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "III"
+  ],
+
+  "key": {
+    "I": {
+      "item": "uol:ingot_tin"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:plate_tin",
+    "count": 3
+  }
+}
