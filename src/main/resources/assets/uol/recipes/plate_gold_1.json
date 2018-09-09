@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "III"
+  ],
+
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:plate_gold",
+    "count": 3
+  }
+}
