@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "III"
+  ],
+
+  "key": {
+    "I": {
+      "item": "uol:ingot_nickel"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:plate_nickel",
+    "count": 3
+  }
+}
