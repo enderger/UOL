@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "III"
+  ],
+
+  "key": {
+    "I": {
+      "item": "uol:ingot_platinum"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:plate_platinum",
+    "count": 3
+  }
+}
