@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "pattern": [
+    "B"
+  ],
+
+  "key": {
+    "B": {
+      "item": "uol:block_copper"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:ingot_copper",
+    "count": 9
+  }
+}
