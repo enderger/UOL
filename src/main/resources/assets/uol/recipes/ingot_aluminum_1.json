@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "B"
+  ],
+
+  "key": {
+    "B": {
+      "item": "uol:block_aluminum"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:ingot_aluminum",
+    "count": 9
+  }
+}
