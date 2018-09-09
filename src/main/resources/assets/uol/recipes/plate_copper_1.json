@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "III"
+  ],
+
+  "key": {
+    "I": {
+      "item": "uol:ingot_copper"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:plate_copper"
+  }
+}
