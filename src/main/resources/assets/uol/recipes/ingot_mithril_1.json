@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "B"
+  ],
+
+  "key": {
+    "B": {
+      "item": "uol:block_mithril"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:ingot_mithril",
+    "count": 9
+  }
+}
