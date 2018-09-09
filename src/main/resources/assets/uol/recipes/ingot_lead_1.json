@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "B"
+  ],
+
+  "key": {
+    "B": {
+      "item": "uol:block_lead"
+    }
+  },
+
+  "result":
+  {
+    "item": "uol:ingot_lead",
+    "count": 9
+  }
+}
