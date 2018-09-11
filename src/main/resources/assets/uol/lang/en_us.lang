@@ -44,3 +44,13 @@ tile.block_lead.name=Lead Block
 tile.block_mithril.name=Mithril Block
 tile.block_nickel.name=Nickel Block
 tile.block_platinum.name=Platinum Block
+##Ores
+###Overworld
+tile.ore_overworld_copper.name=Copper Ore
+tile.ore_overworld_tin.name=Tin Ore
+tile.ore_overworld_aluminum.name=Aluminum Ore
+tile.ore_overworld_Silver.name=Silver Ore
+tile.ore_overworld_lead.name=Lead Ore
+tile.ore_overworld_mithril.name=Mithril Ore
+tile.ore_overworld_nickel.name=Nickel Ore
+tile.ore_overworld_platinum.name=Platinum Ore

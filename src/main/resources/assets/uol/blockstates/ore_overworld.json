@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "variant=copper": { "model": "uol:ore_overworld_copper"},
+    "variant=tin": { "model": "uol:ore_overworld_tin"},
+    "variant=aluminum": { "model": "uol:ore_overworld_aluminum"},
+    "variant=silver": { "model": "uol:ore_overworld_silver"},
+    "variant=lead": { "model": "uol:ore_overworld_lead"},
+    "variant=mithril": { "model": "uol:ore_overworld_mithril"},
+    "variant=nickel": { "model": "uol:ore_overworld_nickel"},
+    "variant=platinum": { "model": "uol:ore_overworld_platinum"}
+  }
+}
