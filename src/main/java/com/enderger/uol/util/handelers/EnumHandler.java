@@ -18,34 +18,49 @@ public class EnumHandler {
         private final int meta;
         private final String name, unlocalizedName;
 
-
-        private EnumType(int meta, String name) {
+        private EnumType(int meta, String name)
+        {
             this(meta, name, name);
         }
-        private EnumType(int meta, String name, String unlocalizedName) {
+
+        private EnumType(int meta, String name, String unlocalizedName)
+        {
             this.meta = meta;
             this.name = name;
             this.unlocalizedName = unlocalizedName;
         }
+
         @Override
-        public String getName() {
+        public String getName()
+        {
             return this.name;
         }
-        public int getMeta() {
+
+        public int getMeta()
+        {
             return this.meta;
         }
-        public String getUnlocalizedName() {
+
+        public String getUnlocalizedName()
+        {
             return this.unlocalizedName;
         }
+
         @Override
-        public String toString() {
+        public String toString()
+        {
             return this.name;
         }
-        public static EnumType byMetadata(int meta) {
+
+        public static EnumType byMetadata(int meta)
+        {
             return META_LOOKUP[meta];
         }
-        static {
-            for(EnumType enumtype : values()) {
+
+        static
+        {
+            for(EnumType enumtype : values())
+            {
                 META_LOOKUP[enumtype.getMeta()] = enumtype;
             }
         }

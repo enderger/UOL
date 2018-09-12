@@ -6,7 +6,7 @@ import com.enderger.uol.init.ItemInit;
 import com.enderger.uol.objects.BlockItems.ItemBlockVariants;
 import com.enderger.uol.util.IHasModel;
 import com.enderger.uol.util.handelers.EnumHandler;
-import com.enderger.uol.util.interfaces.IMetalName;
+import com.enderger.uol.util.interfaces.IMetaName;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
@@ -22,7 +22,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 
-public class BlockOres extends Block implements IHasModel, IMetalName {
+public class BlockOres extends Block implements IHasModel, IMetaName {
     public static final PropertyEnum<EnumHandler.EnumType> VARIANT = PropertyEnum.<EnumHandler.EnumType>create("variant", EnumHandler.EnumType.class);
 
     private String name, dimension;
