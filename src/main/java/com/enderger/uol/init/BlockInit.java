@@ -28,3 +28,4 @@ public class BlockInit {
     //Ores
     public static final Block OVERWORLD_ORE = new BlockOres("ore_overworld", "overworld");
 }
+
