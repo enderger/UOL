@@ -13,26 +13,17 @@ public class ItemBlockVariants extends ItemBlock {
         setHasSubtypes(true);
         setMaxDamage(0);
     }
-
-    @Override
-    public int getMetadata(int damage) {
-        if(damage == 5) {
-            RARITY = EnumRarity.RARE;
-        } else if(damage == 6) {
-            RARITY = EnumRarity.UNCOMMON;
-        } else {
-            RARITY = EnumRarity.COMMON;
+        @Override
+        public int getMetadata(int damage){
+            return damage;
         }
-        return damage;
-    }
 
+        @Override
+        public String getUnlocalizedName(ItemStack stack){
+            return super.getUnlocalizedName() + "_" + ((IMetalName)this.block).getSpecialName(stack);
+        }
     @Override
-    public String getUnlocalizedName(ItemStack stack) {
-        return super.getUnlocalizedName() + "_" + ((IMetalName)this.block).getSpecialName(stack);
-    }
-    @Override
-    public EnumRarity getRarity(ItemStack stack)
-    {
+    public EnumRarity getRarity(ItemStack stack) {
         return RARITY;
     }
 }
