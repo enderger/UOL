@@ -6,6 +6,8 @@ import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 
+import javax.annotation.Nonnull;
+
 public class ItemBlockVariants extends ItemBlock {
     EnumRarity RARITY;
     public ItemBlockVariants(Block block) {
@@ -13,8 +15,10 @@ public class ItemBlockVariants extends ItemBlock {
         setHasSubtypes(true);
         setMaxDamage(0);
     }
+    int DAMAGE;
         @Override
         public int getMetadata(int damage){
+            DAMAGE = damage;
             return damage;
         }
 
@@ -23,7 +27,15 @@ public class ItemBlockVariants extends ItemBlock {
             return super.getUnlocalizedName() + "_" + ((IMetaName)this.block).getSpecialName(stack);
         }
     @Override
+    @Nonnull
     public EnumRarity getRarity(ItemStack stack) {
+        if(DAMAGE == 5) {
+            RARITY = EnumRarity.UNCOMMON;
+        } else if(DAMAGE == 6) {
+            RARITY = EnumRarity.RARE;
+        } else {
+            RARITY = EnumRarity.COMMON;
+        }
         return RARITY;
     }
 }
