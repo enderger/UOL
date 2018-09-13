@@ -6,33 +6,29 @@ import net.minecraft.item.EnumRarity;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 
-import javax.annotation.Nonnull;
-
 public class ItemBlockVariants extends ItemBlock {
+    String VARIENT;
     EnumRarity RARITY;
     public ItemBlockVariants(Block block) {
         super(block);
         setHasSubtypes(true);
         setMaxDamage(0);
     }
-    int DAMAGE;
         @Override
         public int getMetadata(int damage){
-            DAMAGE = damage;
             return damage;
         }
-
-        @Override
+    @Override
         public String getUnlocalizedName(ItemStack stack){
             return super.getUnlocalizedName() + "_" + ((IMetaName)this.block).getSpecialName(stack);
         }
     @Override
-    @Nonnull
     public EnumRarity getRarity(ItemStack stack) {
-        if(DAMAGE == 5) {
-            RARITY = EnumRarity.UNCOMMON;
-        } else if(DAMAGE == 6) {
+        VARIENT = ((IMetaName)this.block).getSpecialName(stack);
+        if(VARIENT == "mithril") {
             RARITY = EnumRarity.RARE;
+        } else if(VARIENT == "nickel") {
+            RARITY = EnumRarity.UNCOMMON;
         } else {
             RARITY = EnumRarity.COMMON;
         }
