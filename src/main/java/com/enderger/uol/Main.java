@@ -4,6 +4,7 @@ package com.enderger.uol;
 import com.enderger.uol.proxy.CommonProxy;
 import com.enderger.uol.tabs.UolTab;
 import com.enderger.uol.util.Reference;
+import com.enderger.uol.util.handelers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -24,7 +25,9 @@ public class Main {
     public static CommonProxy proxy;
 
     @EventHandler
-    public static void preInit(FMLPreInitializationEvent event) {}
+    public static void preInit(FMLPreInitializationEvent event) {
+        RegistryHandler.otherRegistries();
+    }
 
     @EventHandler
     public static void init(FMLInitializationEvent event) {}
