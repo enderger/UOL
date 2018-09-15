@@ -14,8 +14,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "platePlatinum",
+    "item": "uol:plate_platinum",
     "count": 3
   }
 }

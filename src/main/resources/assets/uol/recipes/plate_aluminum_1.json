@@ -14,8 +14,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "plateAluminum",
+    "item": "uol:plate_aluminum",
     "count": 3
   }
 }

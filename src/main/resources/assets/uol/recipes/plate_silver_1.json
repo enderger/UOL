@@ -14,8 +14,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "plateSilver",
+    "item": "uol:plate_silver",
     "count": 3
   }
 }

@@ -14,8 +14,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "plateNickel",
+    "ingot": "uol:plate_nickel",
     "count": 3
   }
 }

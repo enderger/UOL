@@ -14,8 +14,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "plateCopper",
+    "item": "uol:plate_copper",
     "count": 3
   }
 }

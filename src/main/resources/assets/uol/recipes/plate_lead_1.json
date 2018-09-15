@@ -14,8 +14,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "plateLead",
+    "item": "uol:plate_lead",
     "count": 3
   }
 }

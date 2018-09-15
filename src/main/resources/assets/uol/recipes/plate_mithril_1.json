@@ -14,8 +14,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "plateMithril",
+    "item": "uol:plate_mithril",
     "count": 3
   }
 }

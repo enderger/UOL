@@ -13,8 +13,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "plateIron",
+    "item": "uol:plate_iron",
     "count": 3
   }
 }

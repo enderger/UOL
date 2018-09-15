@@ -14,8 +14,7 @@
 
   "result":
   {
-    "type": "forge:ore_dict",
-    "ore": "plateTin",
+    "item": "uol:plate_tin",
     "count": 3
   }
 }
