@@ -2,6 +2,7 @@ package com.enderger.uol.init;
 
 import com.enderger.uol.util.compat.OreDictionaryCompat;
 import javafx.scene.paint.Material;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
@@ -28,5 +29,7 @@ public class RecipeInit {
         GameRegistry.addSmelting(ItemInit.MITHRIL_DUST, new ItemStack(ItemInit.MITHRIL_INGOT,1), xp);
         GameRegistry.addSmelting(ItemInit.NICKEL_DUST, new ItemStack(ItemInit.NICKEL_INGOT,1), xp);
         GameRegistry.addSmelting(ItemInit.PLATINUM_DUST, new ItemStack(ItemInit.PLATINUM_INGOT,1), xp);
+        GameRegistry.addSmelting(ItemInit.IRON_DUST, new ItemStack(Items.IRON_INGOT,1), xp);
+        GameRegistry.addSmelting(ItemInit.GOLD_DUST, new ItemStack(Items.GOLD_INGOT,1), xp);
     }
 }
