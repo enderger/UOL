@@ -9,7 +9,8 @@
 
   "key": {
     "I": {
-      "item": "uol:ingot_nickel"
+      "type": "forge:ore_dict",
+      "ore": "ingotNickel"
     }
   },
 

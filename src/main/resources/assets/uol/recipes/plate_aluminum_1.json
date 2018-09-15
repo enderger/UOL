@@ -7,13 +7,15 @@
 
   "key": {
     "I": {
-      "item": "uol:ingot_aluminum"
+      "type": "forge:ore_dict",
+      "ore": "ingotAluminum"
     }
   },
 
   "result":
   {
-    "item": "uol:plate_aluminum",
+    "type": "forge:ore_dict",
+    "ore": "plateAluminum",
     "count": 3
   }
 }

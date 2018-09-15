@@ -4,6 +4,7 @@ package com.enderger.uol;
 import com.enderger.uol.proxy.CommonProxy;
 import com.enderger.uol.tabs.UolTab;
 import com.enderger.uol.util.Reference;
+import com.enderger.uol.util.compat.OreDictionaryCompat;
 import com.enderger.uol.util.handelers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -30,7 +31,9 @@ public class Main {
     }
 
     @EventHandler
-    public static void init(FMLInitializationEvent event) {}
+    public static void init(FMLInitializationEvent event) {
+        OreDictionaryCompat.registerOres();
+    }
 
     @EventHandler
     public static void postInit(FMLPostInitializationEvent event) {}

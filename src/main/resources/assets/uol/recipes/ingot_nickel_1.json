@@ -7,7 +7,8 @@
 
   "key": {
     "B": {
-      "item": "uol:block_nickel"
+      "type": "forge:ore_dict",
+      "ore": "blockNickel"
     }
   },
 

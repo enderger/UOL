@@ -7,13 +7,15 @@
 
   "key": {
     "I": {
-      "item": "uol:ingot_lead"
+      "type": "forge:ore_dict",
+      "ore": "ingotLead"
     }
   },
 
   "result":
   {
-    "item": "uol:plate_lead",
+    "type": "forge:ore_dict",
+    "ore": "plateLead",
     "count": 3
   }
 }

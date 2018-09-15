@@ -7,13 +7,15 @@
 
   "key": {
     "I": {
-      "item": "uol:ingot_platinum"
+      "type": "forge:ore_dict",
+      "ore": "ingotPlatinum"
     }
   },
 
   "result":
   {
-    "item": "uol:plate_platinum",
+    "type": "forge:ore_dict",
+    "ore": "platePlatinum",
     "count": 3
   }
 }

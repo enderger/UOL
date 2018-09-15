@@ -7,13 +7,15 @@
 
   "key": {
     "I": {
-      "item": "uol:ingot_mithril"
+      "type": "forge:ore_dict",
+      "ore": "ingotMithril"
     }
   },
 
   "result":
   {
-    "item": "uol:plate_mithril",
+    "type": "forge:ore_dict",
+    "ore": "plateMithril",
     "count": 3
   }
 }

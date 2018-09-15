@@ -7,13 +7,15 @@
 
   "key": {
     "I": {
-      "item": "uol:ingot_nickel"
+      "type": "forge:ore_dict",
+      "ore": "ingotNickel"
     }
   },
 
   "result":
   {
-    "item": "uol:plate_nickel",
+    "type": "forge:ore_dict",
+    "ore": "plateNickel",
     "count": 3
   }
 }

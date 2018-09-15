@@ -3,6 +3,7 @@ package com.enderger.uol.util.handelers;
 import com.enderger.uol.init.BlockInit;
 import com.enderger.uol.init.ItemInit;
 import com.enderger.uol.util.IHasModel;
+import com.enderger.uol.util.compat.OreDictionaryCompat;
 import com.enderger.uol.world.gen.WorldGenCustomOres;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

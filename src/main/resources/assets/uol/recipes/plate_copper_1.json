@@ -7,13 +7,15 @@
 
   "key": {
     "I": {
-      "item": "uol:ingot_copper"
+      "type": "forge:ore_dict",
+      "ore": "ingotCopper"
     }
   },
 
   "result":
   {
-    "item": "uol:plate_copper",
+    "type": "forge:ore_dict",
+    "ore": "plateCopper",
     "count": 3
   }
 }
