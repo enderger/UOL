@@ -1,4 +1,4 @@
-package com.enderger.uol.objects;
+package com.enderger.uol.objects.BlockItems;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;

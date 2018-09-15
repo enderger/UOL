@@ -1,6 +1,7 @@
 package com.enderger.uol.objects;
 
 import com.enderger.uol.init.ItemInit;
+import com.enderger.uol.objects.BlockItems.ItemBlockRarity;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.EnumRarity;
 
