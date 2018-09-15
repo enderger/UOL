@@ -1,6 +1,7 @@
 package com.enderger.uol;
 
 //Imports
+import com.enderger.uol.init.RecipeInit;
 import com.enderger.uol.proxy.CommonProxy;
 import com.enderger.uol.tabs.UolTab;
 import com.enderger.uol.util.Reference;
@@ -32,6 +33,7 @@ public class Main {
 
     @EventHandler
     public static void init(FMLInitializationEvent event) {
+        RecipeInit.init();
         OreDictionaryCompat.registerOres();
     }
 
