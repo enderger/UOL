@@ -8,6 +8,7 @@ import com.enderger.uol.util.IHasModel;
 import com.enderger.uol.util.handelers.EnumHandler;
 import com.enderger.uol.util.interfaces.IMetaName;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockSand;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
@@ -32,6 +33,13 @@ public class BlockOres extends Block implements IHasModel, IMetaName {
             setRegistryName(name);
             setCreativeTab(Main.uoltab);
             setDefaultState(this.blockState.getBaseState().withProperty(VARIANT, EnumHandler.EnumType.COPPER));
+
+            setHarvestLevel("pickaxe", 2);
+            setHarvestLevel("pickaxe", 1, getStateFromMeta(EnumHandler.EnumType.COPPER.getMeta()));
+            setHarvestLevel("pickaxe", 1, getStateFromMeta(EnumHandler.EnumType.TIN.getMeta()));
+            setHarvestLevel("pickaxe", 1, getStateFromMeta(EnumHandler.EnumType.ALUMINUM.getMeta()));
+            setHarvestLevel("pickaxe", 3, getStateFromMeta(EnumHandler.EnumType.PLATINUM.getMeta()));
+            setHarvestLevel("pickaxe", 3, getStateFromMeta(EnumHandler.EnumType.MITHRIL.getMeta()));
 
             this.name = name;
             this.dimension = dimension;
